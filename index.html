@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 01</title>
+    <style>
+        h1{
+            background-color: yellow;
+            width: 70%;
+            margin: 1rem auto;
+            text-align: center;
+            border-radius: 2rem;
+        }
+        h2{
+            background-color: #f0f0f0;
+            width: 70%;
+            margin: 1rem auto;
+            text-align: center;
+            border-radius: 2rem;
+        }
+        header {
+        background-color: blue;
+        color: white;
+        width: 100%;
+        text-align: center;
+        border-radius: 2rem;
+        font-weight: bold;
+    }
+    
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    
+    .menu ul li {
+        margin: 1rem;
+        text-align: center;
+        
+    }
+    
+    .menu ul li a{
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .container {
+            width: 80%;
+            margin: 2rem auto;
+            text-align: justify;
+            padding: 2rem;
+            border-radius: 1rem;
+            background-color: #f0f0f0;
+        }
+        .tipos ul {
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+        }
+
+        .tipos ul li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .imagens{
+        width: 120px;
+        height: 120px;
+        border-radius: 20%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+        border: 2px solid blue;
+        box-shadow: .5rem .3rem .3rem .1rem grey;
+        }
+
+    .titulo{
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>Cursos de Graduação</h1>
+    <h2>Conheça aqui os nossos cursos!</h2>
+    
+    <header>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="engenharia.html">Engenharia</a></li>
+                <li><a href="letras.html">Letras</a></li>
+                <li><a href="economia.html">Economia</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="titulo">
+        <h3>Os Cursos</h3></div>
+        <div class="tipos">
+            <ul>
+                <li><a href="engenharia.html">Engenharia</a>
+                <img src="image.png" alt="Engenharia" class="imagens">
+                    </li>
+                <li><a href="letras.html">Letras</a>
+                <img src="image copy.png" alt="Letras" class="imagens">
+                    </li>
+                <li><a href="economia.html">Economia</a>
+                <img src="image copy 2.png" alt="Economia" class="imagens">
+                    </li>
+            </ul>  
+        </div>
+    </div>
+</body>
+</html>
